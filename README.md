@@ -1,68 +1,19 @@
-# Step 18: Write `README.md`
+# Lab 04: Forms, Validation, and Session State
 
-## What you will do
+## Project Theme
 
-Write project information in `README.md`.
+EduRisk Analytics
 
-## File
+## Description
 
+This Streamlit app is a student academic monitoring prototype.
+
+This lab continues from Lab 03 and improves the Risk Checker page using Streamlit forms, input validation, and session state.
+
+The app loads student data from students.csv, displays dashboard information, and allows users to check individual student risk levels with a reliable form-based workflow.
+
+## Features
 ```text
-README.md
-```
-
-## Content
-
-```markdown
-# Lab 01: First Streamlit App
-
-## Project Theme
-
-EduRisk Analytics
-
-## Description
-
-This is my first Streamlit web app.
-
-## Features
-
-- Sidebar navigation
-- Student data table
-- Dashboard metrics
-
-## Tools Used
-
-- Python
-- Streamlit
-- Pandas
-- VS Code
-
-## How to Run
-
-streamlit run app.py
-
-## Student Information
-
-Name:
-Student ID:
-Class:
-```
-
-# Lab 03: Data Loading, Layout, and Frontend Prototype
-
-## Project Theme
-
-EduRisk Analytics
-
-## Description
-
-This Streamlit app is a frontend prototype for student academic monitoring.
-
-This lab continues from Lab 02 and moves the student dataset out of app.py into students.csv.
-
-The app loads CSV data using Pandas and displays it in a cleaner Streamlit dashboard layout.
-
-## Features
-
 - Sidebar navigation
 - Home page
 - Dashboard page
@@ -73,32 +24,35 @@ The app loads CSV data using Pandas and displays it in a cleaner Streamlit dashb
 - CSV data loading with Pandas
 - Missing CSV file error handling
 - Risk level calculation
-- Dashboard metrics
-- Student records table
-- Student score chart
-- Course count chart
-- Data inspection section
-- Ethics reminder
-
+- Streamlit form
+- Form submit button
+- Empty student name validation
+- Supportive risk feedback messages
+- Session state risk-check history
+- Recent Risk Checks table
+- Clear History button
+- Ethics reminders
+```
 ## Tools Used
-
+```text
 - Python
 - Streamlit
 - Pandas
 - VS Code
-
+```
 ## Required Files
-
+```text
 - app.py
 - students.csv
 - requirements.txt
 - README.md
-
+```
 ## How to Run
-
+```text
 streamlit run app.py
-
+```
 ## Student Information
+
 
 Name:
 Student ID:

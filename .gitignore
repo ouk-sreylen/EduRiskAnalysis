@@ -3,3 +3,4 @@ wad_venv/
 __pycache__/
 *.pyc
 .env
+filtered_student_data.csv
